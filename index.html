@@ -1,19 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q0Z84Y7CFW"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+  gtag('config', 'G-Q0Z84Y7CFW');
+</script>
+    <meta content="El desarrollo de soluciones tecnologicas para tu negocio es nuestra pasión, si quieres que la era digital sea tu amiga y no quien destruye tu negocio ¡Escríbenos!" >
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/templatemo-style.css" />
-    <title>Mini Profile - Free Bootstrap CSS Template</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/templatemo-style.css" />
+    <title>Hobby Layer Desarrollo de software</title>
     
-<!--
-Mini Profile Template
-https://templatemo.com/tm-530-mini-profile
--->
+
   </head>
   <body>
     <!-- Welcome Section -->
@@ -25,8 +32,8 @@ https://templatemo.com/tm-530-mini-profile
             <!-- Black transparent bg -->
             <div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
               <div class="tm-brand-container text-center">
-                <h1 class="tm-brand-name">Mini Profile</h1>
-                <p class="tm-brand-description mb-0">simple parallax template</p>
+                <h1 class="tm-brand-name">Hobby Layer</h1>
+                <p class="tm-brand-description mb-0">Desarrollo web para tu negocio</p>
               </div>
             </div>
           </div>
@@ -40,12 +47,9 @@ https://templatemo.com/tm-530-mini-profile
             <!-- White transparent bg -->
             <div class="col-md-7 tm-welcome-left-col">
               <div class="tm-welcome-left">
-                <h2 class="tm-welcome-title">Welcome to Mini Profile Page</h2>
+                <h2 class="tm-welcome-title">Bienvenido a Hobby Layer</h2>
                 <p class="pb-0">
-                  This is Bootstrap v4.3.1 parallax layout for you. Credit goes to <a rel="nofollow" href="https://www.pexels.com">Pexels</a> for 2 background images. In
-                  odio sapien, commodo id ullamcorper ac, dignissim at sapien.
-                  Nullam leo massa, vaius ac massa et, tincidunt imperdiet
-                turpis. </p>
+                  Somos un equipo de desarrollo de software especializado en el desarrollo web, contamos con la experiencia necesaria brindarte soluciones a la medida, impulsando el creciemiento de tu empresa.</p>
               </div>
             </div>
             <!-- Brown bg -->
@@ -53,7 +57,7 @@ https://templatemo.com/tm-530-mini-profile
               <div class="tm-welcome-right">
                 <i class="fas fa-4x fa-address-card p-3 tm-welcome-icon"></i>
                 <p class="mb-0">
-                  Please spread a word about templatemo website. Anyone can download free Bootstrap CSS templates.
+                  Conócenos un poco más y si aún quieres saber más de nosotros, no dudes en escribir estaremos dispuesto a aclarar todas tus dudas.
                 </p>
               </div>
             </div>
@@ -181,22 +185,22 @@ https://templatemo.com/tm-530-mini-profile
               action="index.html"
               method="POST"
               id="tmContactForm"
-              class="tm-bg-white-transparent"
+              class="tm-bg-white-transparent envioDeFormulario"
             >
               <div class="form-group">
                 <input
                   type="text"
-                  id="contact_name"
+                  id="nombre"
                   name="contact_name"
                   class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
-                  placeholder="Name"
+                  placeholder="Nombre"
                   required
                 />
               </div>
               <div class="form-group">
                 <input
                   type="email"
-                  id="contact_email"
+                  id="email"
                   name="contact_email"
                   class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
                   placeholder="Email"
@@ -206,10 +210,10 @@ https://templatemo.com/tm-530-mini-profile
               <div class="form-group">
                 <textarea
                   rows="4"
-                  id="contact_message"
+                  id='cuerpoDelMensaje'
                   name="contact_message"
                   class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
-                  placeholder="Message"
+                  placeholder="Mensaje"
                   required
                 ></textarea>
               </div>
@@ -217,8 +221,9 @@ https://templatemo.com/tm-530-mini-profile
                 <button
                   type="submit"
                   class="btn tm-btn-submit rounded-0 text-white"
+                  id="submit"
                 >
-                  Submit
+                <i class="fab fa-whatsapp"></i> Enviar WhatsApp
                 </button>
               </div>
             </form>
@@ -228,9 +233,9 @@ https://templatemo.com/tm-530-mini-profile
         <div class="row">
           <footer class="col-12">
             <p class="text-center tm-copyright-text">
-            Copyright 2020 Mini Profile Page 
+            Copyright 2020 Hobby Layer Team 
             
-            - Design: Template Mo</p>
+            - Diseño: Hobby Layer</p>
           </footer>
         </div>
       </div>
@@ -272,5 +277,6 @@ https://templatemo.com/tm-530-mini-profile
         });
       });
     </script>
+    <script src='./js/form.js'></script>
   </body>
 </html>
